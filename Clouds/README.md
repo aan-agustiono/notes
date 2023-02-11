@@ -1,10 +1,3 @@
-<ul>
-  <li><a href="https://github.com/Ylianst/MeshCentral">MeshCentral</a></li>  
-  <li><a href="https://github.com/brefphp/dev-server">dev-server</a> Development web server for serverless-native PHP web apps.</li>
-  <li><a href="https://ossinsight.io/collections/serverless-framework/">serverless-framework</a> Serverless Framework - Ranking</li>
-</ul>
-
-
 
 <!---
 aan-agustiono/aan-agustiono is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -19,6 +12,9 @@ URL notes learning docs
   <li><a href="https://github.com/open-lambda">https://github.com/open-lambda</a></li> 
   <li><a href="https://docs.openfaas.com/">https://docs.openfaas.com/</a></li>
   <li><a href="https://github.com/dherault/serverless-offline">https://github.com/dherault/serverless-offline</a></li>
+  <li><a href="https://github.com/Ylianst/MeshCentral">MeshCentral</a></li>  
+  <li><a href="https://github.com/brefphp/dev-server">dev-server</a> Development web server for serverless-native PHP web apps.</li>
+  <li><a href="https://ossinsight.io/collections/serverless-framework/">serverless-framework</a> Serverless Framework - Ranking</li>
 </ul>
 
 
