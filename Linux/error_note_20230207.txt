@@ -1,0 +1,13 @@
+
+01 Cases 01
+- Problems
+
+E: Release file for http://archive.ubuntu.com/ubuntu/dists/jammy-backports/InRelease is not valid yet (invalid for another 1h 35min 47s). Updates for this repository will not be applied.
+E: Release file for http://archive.ubuntu.com/ubuntu/dists/jammy-updates/InRelease is not valid yet (invalid for another 1h 35min 1s). Updates for this repository will not be applied.
+E: Release file for http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease is not valid yet (invalid for another 1h 34min 30s). Updates for this repository will not be applied.
+
+- Solutions
+=====================================================================================================================================================
+sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+sudo apt update
+=====================================================================================================================================================
