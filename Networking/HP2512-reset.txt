@@ -1,0 +1,16 @@
+CLI: Resetting to the factory-default configuration
+This command operates at any level except the Operator level.
+
+Syntax:
+ erase startup-configuration
+
+Deletes the startup-config file inflash so that the switch willreboot with its factory-defaultconfiguration.
+
+Clear/Reset: Resetting to the factory-default configuration
+To execute the factory default reset, perform these steps:
+
+- Using pointed objects, simultaneously press both the Reset and Clearbuttons on the front of the switch.
+- Continue to press the Clear button while releasing the Reset button.
+- When the Self Test LED begins to flash, release the Clear button.
+
+The switch will then complete its self test and begin operating with theconfiguration restored to the factory default settings.
