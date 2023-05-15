@@ -1,0 +1,4 @@
+NEX DATACENTER
+- ID                    = 02055190
+- USERNAME/CUSTOMER ID  = dc_icemt
+
