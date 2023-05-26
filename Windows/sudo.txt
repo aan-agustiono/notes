@@ -1,0 +1,27 @@
+== Install sudo on windows with standart user ==
+#####################################################################################################
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Agustiono> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+PS C:\Users\Agustiono> irm get.scoop.sh | iex
+Initializing...
+Downloading ...
+Extracting...
+Creating shim...
+Adding ~\scoop\shims to your path.
+Scoop was installed successfully!
+Type 'scoop help' for instructions.
+PS C:\Users\Agustiono> scoop install sudo
+Installing 'sudo' (0.2020.01.26) [64bit] from main bucket
+sudo.ps1 (2.2 KB) [====================================================================] 100%
+Checking hash of sudo.ps1 ... ok.
+Linking ~\scoop\apps\sudo\current => ~\scoop\apps\sudo\0.2020.01.26
+Creating shim for 'sudo'.
+'sudo' (0.2020.01.26) was installed successfully!
+PS C:\Users\Agustiono> sudo.cmd
+usage: sudo <cmd...>
+PS C:\Users\Agustiono>
+#####################################################################################################
