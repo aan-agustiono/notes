@@ -20,3 +20,9 @@ PS C:\Users\Agustiono> gsudo -v
 gsudo v2.0.9 (Branch.tags-v2.0.9.Sha.0a8889d483c3224321ba48acec5e3b9fe87c62f3)
 Copyright(c) 2019-2022 Gerardo Grignoli and GitHub contributors
 PS C:\Users\Agustiono>
+
+
+=======================================================================================================
+URL == https://github.com/gerardog/gsudo
+
+
