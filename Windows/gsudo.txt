@@ -23,6 +23,6 @@ PS C:\Users\Agustiono>
 
 
 =======================================================================================================
-URL == <a href="https://github.com/gerardog/gsudo">https://github.com/gerardog/gsudo</a>
+URL == https://github.com/gerardog/gsudo
 
 
