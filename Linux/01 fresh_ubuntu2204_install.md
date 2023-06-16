@@ -35,9 +35,8 @@ sudo snap list
 sudo apt autoremove --purge snapd
 rm -rf ~/snap/
 </pre>
-
-Step 04 - <code>apt update</code> 
-Step 05 - <code>apt install nmap vim </code>
+Step 04 - <code>apt update</code> <br>
+Step 05 - <code>apt install nmap vim </code><br>
 Step -6 - <code>apt update & apt upgrade</code>
 
 
