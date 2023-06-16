@@ -1,10 +1,7 @@
 
-
-
 Step 01 - Install OS
-
 Step 02 - add ethernet config
-===========================================
+<pre>
 # /etc/sysctl.conf
 # increase TCP max buffer size setable using setsockopt()
 net.core.rmem_max = 16777216
@@ -26,25 +23,21 @@ net.core.netdev_max_backlog = 30000
 net.ipv4.tcp_sack = 0
 #enable window scaling
 net.ipv4.tcp_window_scaling = 1 
-
-# sudo sysctl -p  "For running". 
-
+</pre>
+<code>sudo sysctl -p</code>  "For running". 
 
 Step 03 - Remove snap & econfigure snap
-# 
+<pre> 
 sudo systemctl disable snapd.service
 sudo systemctl disable snapd.socket
 sudo systemctl disable snapd.seeded.service 
 sudo snap list
 sudo apt autoremove --purge snapd
 rm -rf ~/snap/
+</pre>
 
-
-
-Step 04 - apt update 
-
-Step 05 - apt install nmap vim 
-
-Step -6 - apt update & apt upgrade
+Step 04 - <code>apt update</code> 
+Step 05 - <code>apt install nmap vim </code>
+Step -6 - <code>apt update & apt upgrade</code>
 
 
