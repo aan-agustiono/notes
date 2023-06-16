@@ -3,15 +3,11 @@
 <h4>Berikut ini caranya:</h4>
 
 - Buka terminal dengan cara klik Applications->Accessories->Terminal
-
 - Agar anda bisa dengan mudah mengembalikan ke kondisi semula jika terjadi masalah buatlah backup filnya dengan cara
-<code>sudo cp /etc/sysctl.conf /etc/sysctl.conf.cadangan </code>
-
+<pre>sudo cp /etc/sysctl.conf /etc/sysctl.conf.cadangan </pre>
 - jadi file backup anda adalah <code>sysctl.conf.cadangan</code>
-
 - Ketik perintah
 <code>sudo gedit /etc/sysctl.conf</code>
-
 - Masukkan kode berikut di akhir file yang anda edit tadi
 <pre>
 <!---- start script ----->
@@ -38,9 +34,7 @@ net.ipv4.tcp_window_scaling = 1
 <!---- end script ------>
 </pre>
 - Simpan file yang telah di edit lalu exit
-
 - Masukkan perintah
-<code>sudo sysctl -p</code>
-
+<pre>sudo sysctl -p</pre>
 - Untuk mematikan/mendisable anda bisa menghilangkan kode yang kita tambahkan tadi buka kembali file tadi
-<code>sudo gedit /etc/sysctl.conf</code>
+<pre>sudo gedit /etc/sysctl.conf</pre>
