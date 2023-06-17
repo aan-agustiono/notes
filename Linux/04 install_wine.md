@@ -64,18 +64,22 @@ $ wine iexplore
 ====================================================================
     Fix winbox fonts on wine linux
 ====================================================================
+```
 ####  Install package mscorefont.
 `sudo apt-get install ttf-mscorefonts-installer`
 
 ####  Kadang trik diatas bisa memperbaiki, tapi kalau tidak coba install winetrick dan install DLL riched2
+```
 sudo apt-get install winetricks
 winetricks riched20
-
+```
 #### Nah,yang terakhir buat sebuah file dengan isi sebagai berikut:
+```
 [HKEY_CURRENT_USER\Software\Wine\X11 Driver]
 "ClientSideWithRender"="N"
-
+```
 #### anda simpan dengan nama winbox.reg, setelah itu buka terminal dan jalankan perintah berikut:
+```
 regedit winbox.reg
-
+```
 Aplikasi winbox seharusnya sudah berjalan dengan baik.
