@@ -16,14 +16,15 @@ Recheck with.
 $ dpkg --print-foreign-architectures
 
 Download and add the WineHQ repository key
+```
 $ sudo mkdir -pm755 /etc/apt/keyrings
 $ sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
-
+```
 Download the WineHQ sources file
-$ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+`$ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources`
 
 Update the package database
-$ sudo apt update
+`$ sudo apt update`
 
 Install Wine
 The next command installs Wine Stable. To install Wine Development or Wine Staging, replace winehq-stable  by  winehq-devel or winehq-staging
