@@ -60,12 +60,12 @@ Lately, iexplore fails to run properly on some distributions. If the window that
 $ wine iexplore
 `
 
----
+<pre>
 ====================================================================
     Fix winbox fonts on wine linux
 ====================================================================
-```
-####  Install package mscorefont.
+</pre>
+####  Install package mscorefont. 
 `sudo apt-get install ttf-mscorefonts-installer`
 
 ####  Kadang trik diatas bisa memperbaiki, tapi kalau tidak coba install winetrick dan install DLL riched2
