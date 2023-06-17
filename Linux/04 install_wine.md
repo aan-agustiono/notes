@@ -1,5 +1,6 @@
 Check installed architectures
 - Verify 64-bit architecture. The following command should respond with "amd64".
+
 `$ dpkg --print-architecture</pre>`
 
 See if 32-bit architecture is installed. The following command should respond with "i386".
@@ -7,6 +8,7 @@ See if 32-bit architecture is installed. The following command should respond wi
 `$ dpkg --print-foreign-architectures`
 
 If "i386" is not displayed, execute the following.
+
 `$ sudo dpkg --add-architecture i386`
 
 Recheck with.
