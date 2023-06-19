@@ -6,7 +6,7 @@
 `sudo useradd -m -s /bin/bash cloud-admin`<br>
 `sudo visudo -f /etc/sudoers.d/cloud-admin`<br>
 
-### Isi File
+#### Isi File
 ```
 cloud-admin ALL = NOPASSWD: ALL
 ```
@@ -17,6 +17,8 @@ cloud-admin ALL = NOPASSWD: ALL
 
 `cd devstack`<br>
 `vim local.conf`<br>
+
+#### Isi File
 ```
 [[local|localrc]]
 ADMIN_PASSWORD=YourPasswordHere
