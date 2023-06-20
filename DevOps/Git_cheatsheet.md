@@ -5,10 +5,10 @@
 <p dir="auto"><em>If you are interested in my Git aliases, have a look at my <code>.bash_profile</code>, found here: <a href="https://github.com/joshnh/bash_profile/blob/master/.bash_profile">https://github.com/joshnh/bash_profile/blob/master/.bash_profile</a></em></p>
 <p dir="auto">--</p>
 <h3 tabindex="-1" dir="auto"><a id="user-content-getting--creating-projects" class="anchor" aria-hidden="true" href="#getting--creating-projects"></a>Getting &amp; Creating Projects</h3>
-<table>
+<table width="100%">
 <thead>
 <tr>
-<th>Command</th>
+<th width="49%">Command</th>
 <th>Description</th>
 </tr>
 </thead>
