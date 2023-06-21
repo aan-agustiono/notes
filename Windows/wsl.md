@@ -1,3 +1,11 @@
+### Install Linux with WSL
+- See all available distros `wsl --list --online`
+- Install Linux Distro `wsl --install -d Ubuntu-22.04`
+- See all your currently installed distros `wsl -l -v`
+- Uninstall distro `wsl --unregister Ubuntu-22.04`
+
+
+
 ### Remove Linux Distro from WSL
 Note. "Terminal must be access from administrator"
 ```
