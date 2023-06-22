@@ -6,8 +6,10 @@ apt-get -y install bridge-utils openssh-server openntpd genisoimage python3-pip 
 ```
 - Step 2 - Configure the network
 Note: Replace IP addresses according to your network configuration.
-Rename the `/etc/netplan/00-installer-config.yaml` file to `/etc/netplan/original-00-installer-config.yaml` to save it as a backup.<br>
-`mv /etc/netplan/00-installer-config.yaml /etc/netplan/original-00-installer-config.yaml`
+Rename the `/etc/netplan/00-installer-config.yaml` file to `/etc/netplan/original-00-installer-config.yaml` to save it as a backup.
+```
+mv /etc/netplan/00-installer-config.yaml /etc/netplan/original-00-installer-config.yaml
+```
 Use your preferred editor and open a new file `/etc/netplan/00-installer-config.yaml`. Add the content below to the file.
 ```
 network:
