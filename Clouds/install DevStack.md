@@ -3,15 +3,21 @@
 `sudo apt update -y`<br>
 `sudo apt upgrade -y && sudo systemctl reboot -i`<br>
 
-`sudo useradd -m -s /bin/bash cloud-admin`<br>
-`sudo visudo -f /etc/sudoers.d/cloud-admin`<br>
+`sudo useradd -m -s /bin/bash stack`<br>
+`sudo chmod +x /opt/stack`<br>
 
+### Pilih Salah satu
+- Inline command
+`echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack`<br>  
+- Editting File
+`sudo visudo -f /etc/sudoers.d/stack`<br>
 #### Isi File
 ```
-cloud-admin ALL = NOPASSWD: ALL
+stack ALL = NOPASSWD: ALL
 ```
 
-`sudo -u cloud-admin -i`<br>
+
+`sudo -u stack -i`<br>
 `git clone https://opendev.org/openstack/devstack`<br>
 `ls -1 devstack`<br>
 
