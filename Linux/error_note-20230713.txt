@@ -1,0 +1,34 @@
+error wsl kali linux on windows
+--------------------------------------------------------------------------
+┌──(ants㉿NOC)-[/usr/bin]
+└─$ ping www.google.com
+ping: socktype: SOCK_RAW
+ping: socket: Operation not permitted
+ping: => missing cap_net_raw+p capability or setuid?
+
+solusi:
+--------------------------------------------------------------------------
+┌──(ants㉿NOC)-[/usr/bin]
+└─$ sudo apt install iputils-ping --reinstall
+[sudo] password for ants:
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 0 not upgraded.
+Need to get 47.1 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://mirror.primelink.net.id/kali kali-rolling/main amd64 iputils-ping amd64 3:20221126-1 [47.1 kB]
+Fetched 47.1 kB in 2s (26.4 kB/s)
+(Reading database ... 211062 files and directories currently installed.)
+Preparing to unpack .../iputils-ping_3%3a20221126-1_amd64.deb ...
+Unpacking iputils-ping (3:20221126-1) over (3:20221126-1) ...
+Setting up iputils-ping (3:20221126-1) ...
+Processing triggers for man-db (2.11.2-2) ...
+Processing triggers for kali-menu (2023.3.3) ...
+
+┌──(ants㉿NOC)-[/usr/bin]
+└─$ ping www.google.com
+PING www.google.com (74.125.24.106) 56(84) bytes of data.
+64 bytes from sf-in-f106.1e100.net (74.125.24.106): icmp_seq=1 ttl=53 time=16.8 ms
+64 bytes from sf-in-f106.1e100.net (74.125.24.106): icmp_seq=2 ttl=53 time=15.0 ms
+--------------------------------------------------------------------------
