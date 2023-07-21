@@ -17,5 +17,12 @@ sudo apt update && sudo apt-get install docker-ce docker-ce-cli containerd.io do
 sudo usermod -aG docker $USER && newgrp docker  
 </pre>
 
+<i>MASALAH OLD apt-key</i>
+<pre>
+================== CATATAN PENTING MASALAH OLD apt-key ========================
+wget -O - http://download.cloudstack.org/release.asc |sudo apt-key add -
+mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/
+===============================================================================  
+</pre>
 
 
