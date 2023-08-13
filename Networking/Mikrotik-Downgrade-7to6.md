@@ -23,3 +23,6 @@ ___
 - Upload the older version npk files to the device with FTP, Webfig or Winbox.
 - Issue the command line command `/system/package/downgrade`
 - Issue the command `/system/reboot`
+
+#### Source Reff
+<a href="https://help.mikrotik.com/docs/display/RKB/Downgrading+RouterOS">Downgrading RouterOS</a>
