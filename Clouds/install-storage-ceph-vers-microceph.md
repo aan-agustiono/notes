@@ -16,6 +16,7 @@ sudo microceph.ceph status
 sudo microceph.ceph osd status
 </pre>
 
+<u>Add user/pass for interface dashboard (webUI)</u>
 <pre>
 microceph.ceph config set mgr mgr/dashboard/ssl false
 microceph.ceph mgr module enable dashboard
