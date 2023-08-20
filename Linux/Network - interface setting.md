@@ -1,5 +1,4 @@
 ### Mempercepat Koneksi Internet di Ubuntu dan Turunannya
-
 #### Berikut ini caranya:
 - Buka terminal dengan cara klik <code>Applications</code>-><code>Accessories</code>-><code>Terminal</code>
 - Agar anda bisa dengan mudah mengembalikan ke kondisi semula jika terjadi masalah buatlah backup filnya dengan cara
