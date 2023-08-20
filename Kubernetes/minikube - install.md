@@ -33,10 +33,10 @@ First of all, you need to install kubectl — a Kubernetes command-line tool.
 
 - methode curl
 ```
+# download kubectl
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
-```
--- install
-```
+
+# install
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
 
