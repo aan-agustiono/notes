@@ -1,17 +1,17 @@
-
-- Step 1 - Install dependencies
-```
+<ul>
+<li> Step 1 - Install dependencies</li>
+<pre>
 apt-get -y update && apt-get -y upgrade
 apt-get -y install bridge-utils openssh-server openntpd genisoimage python3-pip mysql-server nfs-kernel-server qemu-kvm libvirt-bin
-```
-- Step 2 - Configure the network
+</pre>
+<li> Step 2 - Configure the network</li>
 Note: Replace IP addresses according to your network configuration.
-Rename the `/etc/netplan/00-installer-config.yaml` file to `/etc/netplan/original-00-installer-config.yaml` to save it as a backup.
-```
+Rename the <code>/etc/netplan/00-installer-config.yaml</code> file to <code>/etc/netplan/original-00-installer-config.yaml</code> to save it as a backup.
+<pre>
 mv /etc/netplan/00-installer-config.yaml /etc/netplan/original-00-installer-config.yaml
-```
-Use your preferred editor and open a new file `/etc/netplan/00-installer-config.yaml`. Add the content below to the file.
-```
+</pre>
+Use your preferred editor and open a new file <code>/etc/netplan/00-installer-config.yaml</code>. Add the content below to the file.
+<pre>
 network:
     version: 2
     renderer: networkd
@@ -29,17 +29,17 @@ network:
             gateway4: 192.168.122.1
             nameservers:
                 addresses: [8.8.8.8, 8.8.4.4]
-```
-Apply the changes. `netplan --debbug apply`<br>
+</pre>
+Apply the changes. <code>netplan --debbug apply</code><br>
 Associate the IP address with the hostname.
-```
+<pre>
 IP="192.168.122.10"
 HOSTNAME=$(hostname -f)
 sed -i -e "s/^127.0.1.1.*/$IP $HOSTNAME/" /etc/hosts
-```
+</pre>
 Allow SSH access with root.
-```
+<pre>
 sed -i "s/#PermitRootLogin.*/PermitRootLogin yes/" /etc/ssh/sshd_config
-```
-
+</pre>
+</ul>
 
