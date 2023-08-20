@@ -1,5 +1,5 @@
- https://kind.sigs.k8s.io/docs/user/quick-start/#installation
- kind is a tool for running local Kubernetes clusters using Docker container “nodes”.
+ https://kind.sigs.k8s.io/docs/user/quick-start/#installation<br>
+ kind is a tool for running local Kubernetes clusters using Docker container “nodes”.<br>
  kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
 
 
