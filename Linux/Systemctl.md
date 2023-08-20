@@ -19,18 +19,22 @@
     <td><code># systemctl list-units --type=service --state=running</code><br>OR<br><code># systemctl --type=service --state=running</code></td>
     <td>i.e. all loaded and actively running services</td>
   </tr>
-  <tr>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
 
-If you frequently use the previous command, you can create an <code>alias</code> command in your <code>~/.bashrc</code> file as shown, to easily invoke it.
-`# vim ~/.bashrc`
-Then add the following line under the list of aliases as shown in the screenshot.
+#### example
 ```
-alias running_services='systemctl list-units  --type=service  --state=running'
-```
-example
-```
+ants@labs:~$ sudo systemctl list-units  --type=service  --state=running
+
+  UNIT                        LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service     loaded active running Accounts Service
+  acpid.service               loaded active running ACPI event daemon
+  avahi-daemon.service        loaded active running Avahi mDNS/DNS-SD Stack
+  bluetooth.service           loaded active running Bluetooth service
+  colord.service              loaded active running Manage, Install and Generate Color Profiles
+  cron.service                loaded active running Regular background program processing daemon
+  cups-browsed.service        loaded active running Make remote CUPS printers available locally
+  cups.service                loaded active running CUPS Scheduler
+  dbus.service                loaded active running D-Bus System Message Bus
+  getty@tty1.service          loaded active running Getty on tty1
+  irqbalance.service          loaded active running irqbalance daemon
 ```
