@@ -1,7 +1,6 @@
-<h3>Mempercepat Koneksi Internet di Ubuntu dan Turunannya</h3>
+### Mempercepat Koneksi Internet di Ubuntu dan Turunannya
 
-<h4>Berikut ini caranya:</h4>
-
+#### Berikut ini caranya:
 - Buka terminal dengan cara klik <code>Applications</code>-><code>Accessories</code>-><code>Terminal</code>
 - Agar anda bisa dengan mudah mengembalikan ke kondisi semula jika terjadi masalah buatlah backup filnya dengan cara
 <pre>sudo cp /etc/sysctl.conf /etc/sysctl.conf.cadangan </pre>
@@ -9,8 +8,7 @@
 - Ketik perintah
 <code>sudo gedit /etc/sysctl.conf</code>
 - Masukkan kode berikut di akhir file yang anda edit tadi
-<pre>
-<!---- start script ----->
+```
 # increase TCP max buffer size setable using setsockopt()
 net.core.rmem_max = 16777216
 net.core.wmem_max = 16777216
@@ -31,10 +29,9 @@ net.core.netdev_max_backlog = 30000
 net.ipv4.tcp_sack = 0
 #enable window scaling
 net.ipv4.tcp_window_scaling = 1 
-<!---- end script ------>
-</pre>
+```
 - Simpan file yang telah di edit lalu exit
 - Masukkan perintah
-<pre>sudo sysctl -p</pre>
+`sudo sysctl -p`
 - Untuk mematikan/mendisable anda bisa menghilangkan kode yang kita tambahkan tadi buka kembali file tadi
-<pre>sudo gedit /etc/sysctl.conf</pre>
+`sudo gedit /etc/sysctl.conf`
