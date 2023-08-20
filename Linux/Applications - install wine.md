@@ -1,9 +1,9 @@
-Check installed architectures
-- Verify 64-bit architecture. The following command should respond with "amd64".
+#### Check installed architectures
+- Verify 64-bit architecture. The following command should respond with "<code>amd64</code>".
 
-`$ dpkg --print-architecture</pre>`
+`$ dpkg --print-architecture`
 
-See if 32-bit architecture is installed. The following command should respond with "i386".
+See if 32-bit architecture is installed. The following command should respond with "<code>i386</code>".
 
 `$ dpkg --print-foreign-architectures`
 
@@ -13,7 +13,7 @@ If "i386" is not displayed, execute the following.
 
 Recheck with.
 
-$ dpkg --print-foreign-architectures
+`$ dpkg --print-foreign-architectures`
 
 Download and add the WineHQ repository key
 ```
@@ -47,24 +47,22 @@ $ wine winecfg
 ```
 If you are creating custom Wine prefixes, this configuration must be repeated for each prefix.
 
-Two simple tests
+- Two simple tests
 Just for fun, or to see Wine in action …
 
-Display a simple clock `$ wine clock`.
+* Display a simple clock `$ wine clock`.
 
-Run Wine's builtin web browser
+Run Wine's builtin web browser<br>
 If installing gecko is offered, accept the offer.
 
-Lately, iexplore fails to run properly on some distributions. If the window that opens is solid black, click the Refresh button to obtain partial functionality. Scrolling does not work, but links and window resizing do.
-`
-$ wine iexplore
-`
+* Lately, iexplore fails to run properly on some distributions. If the window that opens is solid black, click the Refresh button to obtain partial functionality. Scrolling does not work, but links and window resizing do.
+`$ wine iexplore`
 
-<pre>
+```
 ====================================================================
     Fix winbox fonts on wine linux
 ====================================================================
-</pre>
+```
 ####  Install package mscorefont. 
 `sudo apt-get install ttf-mscorefonts-installer`
 
