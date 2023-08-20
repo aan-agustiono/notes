@@ -21,9 +21,9 @@ sudo apt-get update -y && sudo apt upgrade -y && sudo apt update && sudo apt-get
 ```
 <hr>
 
-#### Detailed step installations (Reff <a href="https://bell-sw.com/announcements/2022/09/14/how-to-create-a-single-node-kubernetes-cluster/">source</a>)
+#### Detailed step installations ( Reff <a href="https://bell-sw.com/announcements/2022/09/14/how-to-create-a-single-node-kubernetes-cluster/">source</a> )
 
-We chose minikube based on these requirements. We will also need an Ingress to distribute the traffic through the replicas. From the outside it will look like a single entry point leading to multiple pods. 
+We chose minikube based on these requirements. We will also need an Ingress to distribute the traffic through the replicas. From the outside it will look like a single entry point leading to multiple pods.<br> 
 
 We will use the NGINX Ingress controller as the Ingress and Docker as a driver to avoid overhead and virtualization consequences.
 
@@ -36,14 +36,20 @@ First of all, you need to install kubectl — a Kubernetes command-line tool.
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
 ```
 -- install
-`sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl`
+```
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+```
 
 - methode snap
-`snap install kubectl --classic`
+```
+snap install kubectl --classic
+```
 - methode repo (apt, yum n etc)
 
 - cek installations
-`kubectl version --client`
+```
+kubectl version --client
+```
 
 
 #### 02.Install a hypervisor or Docker
@@ -51,21 +57,26 @@ minikube enables you to use a hypervisor to create and manage virtual machines o
 
 
 #### 03.Install minikube
-
 ```
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
 start minikube
-`minikube start --vm-driver=docker`
+```
+minikube start --vm-driver=docker
+```
 
 to use minikube with Docker. To make Docker the default driver, use
-`minikube config set driver docker`
+```
+minikube config set driver docker
+```
 
 If you want to change the driver, you should stop minikube first (see below).
 
 Check that minikube is running correctly by requesting
-`minikube status`
+```
+minikube status
+```
 
 You should get a similar output:
 ```
@@ -75,7 +86,9 @@ apiserver: Running
 kubeconfig: Configured
 ```
 When you are done working with minikube, stop the cluster with
-`minikube stop`
+```
+minikube stop
+```
 
 #### 04.Install NGINX
 To enable the NGINX Ingress Controller (minikube must be started), run
