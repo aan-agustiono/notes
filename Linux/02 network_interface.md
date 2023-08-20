@@ -2,7 +2,7 @@
 
 <h4>Berikut ini caranya:</h4>
 
-- Buka terminal dengan cara klik Applications->Accessories->Terminal
+- Buka terminal dengan cara klik <code>Applications</code>-><code>Accessories</code>-><code>Terminal</code>
 - Agar anda bisa dengan mudah mengembalikan ke kondisi semula jika terjadi masalah buatlah backup filnya dengan cara
 <pre>sudo cp /etc/sysctl.conf /etc/sysctl.conf.cadangan </pre>
 - jadi file backup anda adalah <code>sysctl.conf.cadangan</code>
