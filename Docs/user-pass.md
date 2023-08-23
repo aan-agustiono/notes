@@ -10,7 +10,46 @@
 | BM | Management | CloudStack | Apache Cloudstack | cloud-management | http://172.16.25.2:8080/client | admin | m45t3rR007 |
 | BM | Hypervisor | CloudStack | KVM | kvm-host | ssh 172.16.25.3 | root | m45t3rR007 |
 | BM | Hypervisor | CloudStack | KVM | kvm-prod | ssh 172.16.25.10 | root | m45t3rR007 |
-| BM | PVE-03 | db-CloudStack | STORAGE | support-server | ssh 172.16.25.7 | root | m45t3rR007 |
+| BM | PVE-03 | db-CloudStack | - | support-server | ssh 172.16.25.7 | root | m45t3rR007 |
+| BM | OSD 1 | CEPH node | Primary Storage | osd1-server | ssh 172.16.25.4 | root | m45t3rR007 |
+| BM | OSD 2 | CEPH node | Primary Storage | osd2-server | ssh 172.16.25.5 | root | m45t3rR007 |
+| BM | OSD 3 | CEPH node | Primary Storage | osd3-server | ssh 172.16.25.9 | root | m45t3rR007 |
+| BM | NFS | NFS | Secondary Storage | secondary-storage | ssh 172.16.25.6 | root | m45t3rR007 |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
 
 
 
+Management Cloud
+Service : Cloudstack Management
+Location : Baremetal
+IP Address : 172.16.25.2
+URL : http://172.16.25.2:8080/client
+https://cloud.indoteam.id/client/
+Username : admin
+Password : m45t3rR007
+
+Support Server
+Service : Database,NTP server
+Location : Proxmox PVE3
+IP Address : 172.16.25.7
+URL : -
+Username : root
+Password : m45t3rR007
+
+Ceph-admin
+Platform : Ceph
+Location : Proxmox-PVE03
+IP Address : 172.16.25.8
+URL : -
+Username : root
+Password : m45t3rR007
+
+
+KVM
+Service : KVM - Host for Production & Taiwan Team
+Location : Baremetal
+IP Address : 172.16.25.10
+URL : -
+Username : root
+Password : m45t3rR007
