@@ -4,6 +4,6 @@
 Personal access tokens (classic)
 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
 ```
-![](/Docs/personal%20access%20token.png)
+![](/Docs/images/personal%20access%20token.png)
 
 <hr>
