@@ -46,3 +46,4 @@ wsl hostname -i
 untuk alamat IP distribusi Linux Anda yang diinstal melalui WSL 2 (alamat VM WSL 2)
 `cat /etc/resolv.conf` untuk alamat IP mesin Windows seperti yang terlihat dari WSL 2 (VM WSL 2)
 Menggunakan `listenaddress=0.0.0.0` akan mendengarkan semua port IPv4 .
+Reff = [accessing-a-wsl-2-distribution-from-your-local-area-network-lan](https://learn.microsoft.com/en-us/windows/wsl/networking#accessing-a-wsl-2-distribution-from-your-local-area-network-lan)
