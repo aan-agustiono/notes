@@ -51,3 +51,11 @@ distributionName config --default-user Username
 ubuntu config --default-user my_default_username
 ubuntu2004.exe config --default-user johndoe # When you have Ubuntu 20.04 version installed from the Microsoft Store
 ```
+### WSL IPs
+```
+wsl hostname -I
+netsh interface ipv4 show neighbors
+```
+
+
+
