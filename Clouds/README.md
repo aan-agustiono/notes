@@ -7,6 +7,8 @@ You can click the Preview link to take a look at your changes.
 
 URL notes learning docs
 <ul>
+  <li><a href="https://low-orbit.net/kvm-lab-setup">kvm-lab-setup</a></li>
+  <li><a href="https://low-orbit.net/docker-cheat-sheet">docker-cheat-sheet</a></li>
   <li><a href="https://blog.back4app.com/open-source-serverless-platforms/">https://blog.back4app.com/open-source-serverless-platforms/</a></li>
   <li><a href="https://fission.io/">https://fission.io/</a></li>
   <li><a href="https://github.com/open-lambda">https://github.com/open-lambda</a></li> 
