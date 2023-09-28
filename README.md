@@ -18,11 +18,39 @@ sudo usermod -aG docker $USER && newgrp docker
 </pre>
 
 <i>MASALAH OLD apt-key</i>
-<pre>
+<pre>  
 ================== CATATAN PENTING MASALAH OLD apt-key ========================
 wget -O - http://download.cloudstack.org/release.asc |sudo apt-key add -
 mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/
 ===============================================================================  
 </pre>
+
+
+
+## Index Notes
+
+#### [Clouds]()
+| Project | Docum | 
+
+#### [Database]()
+
+#### [DevOpsSec]()
+
+#### [Docs]()
+
+#### [Driver]()
+
+#### [Kubernetes]()
+
+#### [Linux]()
+
+#### [Networking]()
+
+#### [Storage]()
+
+#### []()
+
+
+
 
 
