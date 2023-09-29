@@ -22,8 +22,6 @@ flowchart TD
 >  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() | 
 
 </details>
-
-
 <details>
 <summary><h4>Nyari kuda</h4></summary>
 
