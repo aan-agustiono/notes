@@ -47,3 +47,47 @@ Result  Scripts :
 
 
 
+
+
+<details>
+<summary><h4>Site-DataCenter</h4></summary>
+
+> [!NOTE] 
+> Isi aja apa aja lahi, namanya juga testing **mantab**. 
+> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+> :----- |:----|:----|:----|:----|:----|:----
+>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
+</details>
+
+<details>
+<summary><h4>Site-Danareksa</h4></summary>
+
+> [!NOTE] 
+> Isi aja apa aja lahi, namanya juga testing **mantab**. 
+> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+> :----- |:----|:----|:----|:----|:----|:----
+>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
+</details>
+
+<details>
+<summary><h4>Site-APL</h4></summary>
+
+> [!NOTE] 
+> Isi aja apa aja lahi, namanya juga testing **mantab**. 
+> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+> :----- |:----|:----|:----|:----|:----|:----
+>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
+</details>
+
+<details>
+<summary><h4>VPN (Virtual Private Network)</h4></summary>
+
+> [!NOTE] 
+> Isi aja apa aja lahi, namanya juga testing **mantab**. 
+> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+> :----- |:----|:----|:----|:----|:----|:----
+>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
+</details>
+
+
+
