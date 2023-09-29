@@ -7,7 +7,7 @@ flowchart TD
 ```
 
 > [!NOTE]  
-> &#129001; : Process/Belum selesai &#9; :white_check_mark: : Completed   :negative_squared_cross_mark: : Empty
+> &#129001; : Not yet running/proccessing | :white_check_mark: Completed | :negative_squared_cross_mark: : Empty/Failed
 
 
 > [!NOTE]  
