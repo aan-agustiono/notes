@@ -24,6 +24,12 @@ Result  Scripts :
 > Critical content demanding immediate user attention due to potential risks.
 
 
+====
+> [!NOTE] call out
+
+> [!NOTE]
+> jam tangan
+
 > [!NOTE] Callout can have an _optional_ title
 > 
 > Callouts can also be nested:
