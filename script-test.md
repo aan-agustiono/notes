@@ -12,7 +12,7 @@ flowchart TD
 
 
 
-> :memo: **Note:** Sunrises are beautiful.
+> :memo: **Note:** Checklist code informations.
 >
 > - &#129001; Not yet running/proccessing
 > - :white_check_mark: Completed
