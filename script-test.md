@@ -9,6 +9,11 @@ flowchart TD
 ```
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
+> | pantangan | kunci | makan | aristorakat | megamawarni |
+> | :--- | :--- | --- | ---:| ---:|
+> | perut | kuncina | hari ini | merry | kaget |
+> 
+
 
 > [!IMPORTANT]  
 > Crucial information necessary for users to succeed.
