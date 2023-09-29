@@ -20,3 +20,12 @@ flowchart TD
 
 > [!WARNING]  
 > Critical content demanding immediate user attention due to potential risks.
+
+
+> [!NOTE] ### Site-Danareksa
+>
+> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+> |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+> | Status | &#129001; | &#129001; | &#129001; | &#129001; | :white_check_mark: | :negative_squared_cross_mark: | 
+>
+
