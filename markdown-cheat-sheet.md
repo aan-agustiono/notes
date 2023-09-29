@@ -25,13 +25,15 @@ Result  Scripts :
 
 
 ====
-> [!NOTE] call out
 
-> [!NOTE]
-> jam tangan
+--[!Note]
+This is the subtext for Note
+until line break, `<br>` occurs
 
-> [!NOTE]
-> Callout can have an _optional_ title
-> 
->> [!WARNING]
->> Critical content demanding immediate user attention due to potential risks.
+--[!Warning] 
+This is the subtext for Warning
+until line break, `<br>` occurs
+
+--[!Alert] 
+This is the subtext for Alert
+until line break, `<br>` occurs
