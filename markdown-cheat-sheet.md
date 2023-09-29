@@ -26,14 +26,23 @@ Result  Scripts :
 
 ====
 
---[!Note]
-This is the subtext for Note
-until line break, `<br>` occurs
+> [!NOTE] 
+> Isi aja apa aja lahi, namanya juga testing **mantab**. 
+> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+> :----- |:----|:----|:----|:----|:----|:----
+>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
 
---[!Warning] 
-This is the subtext for Warning
-until line break, `<br>` occurs
+> [!NOTE] 
+> Isi aja apa aja lahi, namanya juga testing **mantab**. 
+> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+> :----- |:----|:----|:----|:----|:----|:----
+>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
 
---[!Alert] 
-This is the subtext for Alert
-until line break, `<br>` occurs
+> [!NOTE] 
+> Isi aja apa aja lahi, namanya juga testing **mantab**. 
+> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+> :----- |:----|:----|:----|:----|:----|:----
+>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
+
+
+
