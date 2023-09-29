@@ -50,6 +50,7 @@ flowchart TD
 <div style="margin-left: auto;
             margin-right: auto;
             width: 13%">
+    
 > |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
 > :----- |:----|:----|:----|:----|:----|:----
 >  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() | 
@@ -63,6 +64,7 @@ flowchart TD
 <div style="margin-left: auto;
             margin-right: auto;
             width: 13%">
+    
 > |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
 > :----- |:----|:----|:----|:----|:----|:----
 >  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() | 
