@@ -25,7 +25,7 @@ flowchart TD
 > Critical content demanding immediate user attention due to potential risks.
 
 
-> [!NOTE]
+> [!IMPORTANT]
 > **Site-Danareksa**
 >
 > |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
@@ -35,9 +35,9 @@ flowchart TD
 
 
 <details>
-<summary>Site Danareksa</summary>
+<summary>### Site-Danareksa</summary>
 
-> [!NOTE] 
+> [!IMPORTANT] 
 > **Site Danareksa** 
 > |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
 > :----- |:----|:----|:----|:----|:----|:----
