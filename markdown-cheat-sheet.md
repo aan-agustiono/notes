@@ -82,6 +82,7 @@ Result  Scripts :
 <details>
 <summary><h4>VPN (Virtual Private Network)</h4></summary>
 kasjdksa aksdkashd kasdkhaskdh **bagusnya** gimana yah ?.. kurang estetik nih
+  
 > [!NOTE] 
 > Isi aja apa aja lahi, namanya juga testing **mantab**. 
 > |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
