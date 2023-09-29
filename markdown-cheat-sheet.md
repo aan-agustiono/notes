@@ -30,8 +30,10 @@ Result  Scripts :
 > [!NOTE]
 > jam tangan
 
-> [!NOTE] Callout can have an _optional_ title
+> [!NOTE]
+> Callout can have an _optional_ title
 > 
-> Callouts can also be nested:
->> [!HINT]- You can also create foldable callouts with `+` or `-`
+>> Callouts can also be nested:
+>> [!HINT]
+>> - You can also create foldable callouts with `+` or `-`
 >> This is hidden until unfolded.
