@@ -39,7 +39,8 @@ Result  Scripts :
 >>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
 
 > [!NOTE] 
-> Isi aja apa aja lahi, namanya juga testing **mantab**. 
+> Isi aja apa aja lahi, namanya juga testing **mantab**.
+>> [!IMPORTANT]
 >> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
 >> :----- |:----|:----|:----|:----|:----|:----
 >>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
