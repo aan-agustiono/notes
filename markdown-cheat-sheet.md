@@ -80,7 +80,7 @@ Result  Scripts :
 </details>
 
 <details>
-<summary><h4>VPN (Virtual Private Network)</h4></summary>
+<summary><b>VPN (Virtual Private Network)</b></summary>
 kasjdksa aksdkashd kasdkhaskdh **bagusnya** gimana yah ?.. kurang estetik nih
   
 > [!NOTE] 
