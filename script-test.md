@@ -6,8 +6,11 @@ flowchart TD
     A[SWITCH] --- D(CEPH03)    
 ```
 
-> [!NOTE]  
-> &#129001; Not yet running/proccessing | :white_check_mark: Completed | :negative_squared_cross_mark: Empty/Failed
+> [!NOTE]
+> - &#129001; Not yet running/proccessing
+> - :white_check_mark: Completed
+> - :negative_squared_cross_mark: Empty/Failed
+
 
 
 
