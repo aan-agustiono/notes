@@ -1,12 +1,15 @@
 ### testing scripts
-
-
 ```mermaid
 flowchart TD
     A[SWITCH] --- B(CEPH01)
     A[SWITCH] --- C(CEPH02)
     A[SWITCH] --- D(CEPH03)    
 ```
+
+> [!NOTE]  
+> |&#129001; | :white_check_mark: | :negative_squared_cross_mark: |
+
+
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
 > | pantangan | kunci | makan | aristorakat | megamawarni |
