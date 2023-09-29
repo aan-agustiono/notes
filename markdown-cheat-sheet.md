@@ -150,7 +150,7 @@ Result  Scripts :
 > **Warning**
 > This is a warning
 
-[IMPORTANT] 
-.Feeding the Werewolves
+[IMPORTANT]
+Feeding the Werewolves
 ====
 
