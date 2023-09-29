@@ -30,12 +30,19 @@ Result  Scripts :
 <details>
 <summary markdown="span">First level collapsible item</summary>
 **Lorem ipsum dolor sit amet...**
-<details>
+<details markdown="1">
 <summary markdown="span">Second level collapsible item</summary>
-*Sed ut perspiciatis unde omnis iste natus...*
+|  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+|:----- |:----|:----|:----|:----|:----|:----
+| Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
+
 </details>
 </details>
 
+
+|  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+|:----- |:----|:----|:----|:----|:----|:----
+| Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
 
 
 > [!NOTE] 
