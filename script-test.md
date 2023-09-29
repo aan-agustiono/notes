@@ -10,6 +10,20 @@ flowchart TD
 > &#129001; Not yet running/proccessing | :white_check_mark: Completed | :negative_squared_cross_mark: Empty/Failed
 
 
+
+
+> :memo: **Note:** Sunrises are beautiful.
+>
+> &#129001; Not yet running/proccessing
+> :white_check_mark: Completed
+> :negative_squared_cross_mark: Empty/Failed
+
+
+
+
+
+
+
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
 > | pantangan | kunci | makan | aristorakat | megamawarni |
