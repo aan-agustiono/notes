@@ -13,7 +13,7 @@ flowchart TD
 
 
 <details>
-<summary><h4>kolang kaling</h4></summary>
+<h4>kolang kaling</h4>
     
 > [!IMPORTANT]
 > Isi aja apa aja lahi, namanya juga testing **mantab**. 
