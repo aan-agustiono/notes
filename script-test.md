@@ -21,6 +21,17 @@ flowchart TD
 > - :white_check_mark: Completed
 > - :negative_squared_cross_mark: Empty/Failed
 
+<details>
+<summary><h4> Site-Danareksa</h4></summary>
+
+> [!IMPORTANT] 
+> Isi aja apa aja lahi, namanya juga testing **mantab**. 
+> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+> :----- |:----|:----|:----|:----|:----|:----
+>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() | 
+
+</details>
+
 
 
 
@@ -50,17 +61,6 @@ flowchart TD
 > | Status | &#129001; | &#129001; | &#129001; | &#129001; | :white_check_mark: | :negative_squared_cross_mark: | 
 >
 
-
-<details>
-<summary><h4> Site-Danareksa</h4></summary>
-
-> [!IMPORTANT] 
-> Isi aja apa aja lahi, namanya juga testing **mantab**. 
-> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
-> :----- |:----|:----|:----|:----|:----|:----
->  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() | 
-
-</details>
 
 
 <details>
