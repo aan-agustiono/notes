@@ -80,7 +80,7 @@ Result  Scripts :
 </details>
 
 <details>
-<summary>Tips for collapsed sections</summary>
+<summary> **Tips for collapsed sections** </summary>
 
 ### You can add a header
 You can add text within a collapsed section. 
