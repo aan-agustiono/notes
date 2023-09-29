@@ -80,6 +80,20 @@ Result  Scripts :
 </details>
 
 <details>
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+```ruby
+   puts "Hello World"
+```
+</details>
+
+
+<details>
 <summary><b>VPN (Virtual Private Network)</b></summary>
 kasjdksa aksdkashd kasdkhaskdh **bagusnya** gimana yah ?.. kurang estetik nih
   
