@@ -7,7 +7,7 @@ flowchart TD
 ```
 
 > [!NOTE]  
-> &#129001; : Not yet running/proccessing | :white_check_mark: Completed | :negative_squared_cross_mark: : Empty/Failed
+> &#129001; Not yet running/proccessing | :white_check_mark: Completed | :negative_squared_cross_mark: Empty/Failed
 
 
 > [!NOTE]  
