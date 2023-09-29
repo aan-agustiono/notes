@@ -33,6 +33,5 @@ Result  Scripts :
 > [!NOTE]
 > Callout can have an _optional_ title
 > 
->> [!WARNING]
->> This is hidden until unfolded.
->> seketika wahy
+>> [!WARNING] 
+>> Critical content demanding immediate user attention due to potential risks.
