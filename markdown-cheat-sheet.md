@@ -33,5 +33,5 @@ Result  Scripts :
 > [!NOTE]
 > Callout can have an _optional_ title
 > 
->> [!WARNING] 
+>> [!WARNING]
 >> Critical content demanding immediate user attention due to potential risks.
