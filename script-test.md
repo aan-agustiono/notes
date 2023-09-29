@@ -35,10 +35,10 @@ flowchart TD
 
 
 <details>
-<summary>### Site-Danareksa</summary>
+<summary><h4> Site-Danareksa</h4></summary>
 
 > [!IMPORTANT] 
-> **Site Danareksa** 
+> Isi aja apa aja lahi, namanya juga testing **mantab**. 
 > |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
 > :----- |:----|:----|:----|:----|:----|:----
 >  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() | 
