@@ -32,12 +32,17 @@ Result  Scripts :
 **Lorem ipsum dolor sit amet...**
 <details markdown="1">
 <summary markdown="span">Second level collapsible item</summary>
+   
 |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
 |:----- |:----|:----|:----|:----|:----|:----
 | Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
 
 </details>
 </details>
+
+**Note:** a note is something that needs to be mentioned but is apart from the context.
+{: .note}
+
 
 
 |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
