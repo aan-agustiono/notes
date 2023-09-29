@@ -153,3 +153,26 @@ Result  Scripts :
 [IMPORTANT]
 ====
 
+> **NOTE**
+
+> [!NOTE] 
+
+> [TIP]
+
+> **TIP** 
+
+[!IMPORTANT]
+
+**IMPORTANT**
+
+
+[!CAUTION]
+
+**CAUTION**
+
+
+**WARNING**
+
+[!WARNING]
+
+
