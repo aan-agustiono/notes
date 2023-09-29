@@ -83,10 +83,11 @@ Result  Scripts :
 <summary>Tips for collapsed sections</summary>
 
 ### You can add a header
-
 You can add text within a collapsed section. 
+|  | Readme | Schema | Research | Implementation | Documentation | Config-data |
+|:----- |:----|:----|:----|:----|:----|:---- |
+| Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
 
-You can add an image or a code block, too.
 ```ruby
    puts "Hello World"
 ```
