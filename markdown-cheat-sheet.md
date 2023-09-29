@@ -33,6 +33,7 @@ Result  Scripts :
 > [!NOTE]
 > Callout can have an _optional_ title
 > 
->> [!HINT]
+>> [!WARNING]
+>> sebuah tenda berdiri
 >> - You can also create foldable callouts with `+` or `-`
 >> This is hidden until unfolded.
