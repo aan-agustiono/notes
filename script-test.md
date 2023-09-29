@@ -13,8 +13,8 @@ flowchart TD
 
 
 <details>
-<h4>kolang kaling</h4>
-    
+<summary><h4>kolang kaling</h4></summary>summary>
+
 > [!IMPORTANT]
 > Isi aja apa aja lahi, namanya juga testing **mantab**. 
 > |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
