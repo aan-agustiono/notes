@@ -26,108 +26,74 @@ Result  Scripts :
 
 ====
 
+## INFRASTRUCTURE DOCUMENTS
+
+
+**note.** 
+| ✅Success/Done | ❎Failed/empty | 🟩Waiting/progress |
+|:----:|:----:|:----:
+
+
+### MPLS (Network)
 
 <details>
-<summary markdown="span">First level collapsible item</summary>
-**Lorem ipsum dolor sit amet...**
-<details markdown="1">
-<summary markdown="span">Second level collapsible item</summary>
+<summary markdown="span">WAN</summary>
+*wan adalah titik titik*
    
+<details markdown="1">
+<summary markdown="span">Site Data Center</summary>
+*Sed ut perspiciatis unde omnis iste natus...*
+   
+|  | Readme | Schema | Research | Implement | Docs | Config |
+|:----- |:----|:----|:----|:----|:----|:----|
+| Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+
+</details>
+<details markdown="1">
+<summary markdown="span">Site DanaReksa</summary>
+   
+|  | Readme | Schema | Research | Implement | Docs | Config |
+|:----- |:----|:----|:----|:----|:----|:----|
+| Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+</details>
+<details markdown="1">
+<summary markdown="span">Site APL (Central Park)</summary>
+   
+|  | Readme | Schema | Research | Implement | Docs | Config |
+| :----- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+
+</details>
+</details>
+
+
+<details>
+<summary markdown="span">Monitoring</summary>
+*Sed ut perspiciatis unde omnis iste natus...*
+<details markdown="-1">
+<summary markdown="span">Second xcvxce item</summary>
+*Sed ut perspiciatis unde omnis iste natus...*
 |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
 |:----- |:----|:----|:----|:----|:----|:----
-| Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
+| Status | 🟩[Links]() | 🟩[Links]() | 🟩[Links]() | 🟩[Links]() | ✅[Links]() | ❎[Links]() |
+</details>
+<details markdown="1">
+<summary markdown="span">Seconada cvxce item</summary>
+> surat | alll | surat | coba
+> :---|:---|---:|---:
+> ucap | salam | ikkk | badan
 
 </details>
 </details>
 
-**Note:** a note is something that needs to be mentioned but is apart from the context.
-{: .note}
 
+### ICWS (Clouds)
 
-
-|  | Readme | Schema | Research | Implementation | Documentation | Config-data |
-|:----- |:----|:----|:----|:----|:----|:----
-| Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
-
-
-> [!NOTE] 
-> **Site-DataCenter** Server Coolocations with Inetrnala testing **mantab**. 
-> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
-> :----- |:----|:----|:----|:----|:----|:----
->  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
-
-> [!NOTE]
->> seram Isi aja apa aja lahi, namanya juga testing **mantab**. 
->> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
->> :----- |:----|:----|:----|:----|:----|:----
->>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
-
-> [!NOTE] 
-> Isi aja apa aja lahi, namanya juga testing **mantab**.
->> [!IMPORTANT]
->> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
->> :----- |:----|:----|:----|:----|:----|:----
->>  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
-
-
-
-
-
-<details>
-<summary><h4>Site-DataCenter</h4></summary>
-
-> [!NOTE] 
-> Isi aja apa aja lahi, namanya juga testing **mantab**. 
-> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
-> :----- |:----|:----|:----|:----|:----|:----
->  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
-</details>
-
-<details>
-<summary><h4>Site-Danareksa</h4></summary>
-
-> [!NOTE] 
-> Isi aja apa aja lahi, namanya juga testing **mantab**. 
-> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
-> :----- |:----|:----|:----|:----|:----|:----
->  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
-</details>
-
-<details>
-<summary><h4>Site-APL</h4></summary>
-
-> [!NOTE] 
-> Isi aja apa aja lahi, namanya juga testing **mantab**. 
-> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
-> :----- |:----|:----|:----|:----|:----|:----
->  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
-</details>
-
-<details>
-<summary> <b>Tips for collapsed sections</b> </summary>
-
-### You can add a header
-You can add text within a collapsed section. 
-|  | Readme | Schema | Research | Implementation | Documentation | Config-data |
-|:----- |:----|:----|:----|:----|:----|:---- |
-| Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
-
-```ruby
-   puts "Hello World"
-```
-</details>
-
-
-<details>
-<summary><b>VPN (Virtual Private Network)</b></summary>
-kasjdksa aksdkashd kasdkhaskdh **bagusnya** gimana yah ?.. kurang estetik nih
-  
-> [!NOTE] 
-> Isi aja apa aja lahi, namanya juga testing **mantab**. 
-> |  | Readme | Schema | Research | Implementation | Documentation | Config-data |
-> :----- |:----|:----|:----|:----|:----|:----
->  Status | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | &#129001;[Links]() | :white_check_mark:[Links]() | :negative_squared_cross_mark:[Links]() |
-</details>
-
-
-
+  * #### [Support Server](icws (clouds)/Support)
+  * #### [Storage Server](icws (clouds)/Storage)
+  * #### [Hypervisor Server](icws (clouds)/Hypervisor)
+  * #### [Management Server](icws (clouds)/Management)
+  * #### [Kubernetes](icws (clouds)/Management)
+  * #### [SDWAN](icws (clouds)/Management)
+  * #### [FAAS - Function As A Services](icws (clouds)/Management)
+  * #### [S3 Storage](icws (clouds)/Management)
