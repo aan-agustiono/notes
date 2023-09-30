@@ -3,7 +3,7 @@
 
 **note.** 
 | ✅Success/Done | ❎Failed/empty | 🟩Waiting/progress |
-|:----:|:----:|:----:
+|:----:|:----:|:----:|
 
 ## MPLS (Network)
 > ### 🏢 WAN (Wide area network) 
