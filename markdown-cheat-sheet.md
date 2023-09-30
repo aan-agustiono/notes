@@ -26,45 +26,27 @@ Result  Scripts :
 
 ====
 
-## INFRASTRUCTURE DOCUMENTS
+
+> ### MPLS (Network)
+>
+>> [!IMPORTANT] 
+>> **Site Danareksa**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>
+>> **Site Data Center**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>
+>> **Site Data Center**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
 
 
-**note.** 
-| ✅Success/Done | ❎Failed/empty | 🟩Waiting/progress |
-|:----:|:----:|:----:
 
-
-### MPLS (Network)
-
-<details>
-<summary markdown="span">WAN</summary>
-*wan adalah titik titik*
-   
-<details markdown="1">
-<summary markdown="span">Site Data Center</summary>
-*Sed ut perspiciatis unde omnis iste natus...*
-   
-|  | Readme | Schema | Research | Implement | Docs | Config |
-|:----- |:----|:----|:----|:----|:----|:----|
-| Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
-
-</details>
-<details markdown="1">
-<summary markdown="span">Site DanaReksa</summary>
-   
-|  | Readme | Schema | Research | Implement | Docs | Config |
-|:----- |:----|:----|:----|:----|:----|:----|
-| Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
-</details>
-<details markdown="1">
-<summary markdown="span">Site APL (Central Park)</summary>
-   
-|  | Readme | Schema | Research | Implement | Docs | Config |
-| :----- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
-
-</details>
-</details>
 
 
 <details>
