@@ -13,12 +13,12 @@
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
->> 
+>> ***
 >> **Site Data Center**
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
->> 
+>> ***
 >> **Site APL (Central Park)**
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
@@ -30,23 +30,23 @@
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
->> 
+>> ***
 >> **iBGP (Internal Border Gateway Protocol)**
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
->> 
+>> ***
 >> **Static Routing**
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
->> 
->> **VLAN**
+>> ***
+>> **VLAN (Virtual Local Area Network)**
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
->> 
->> **VxLAN**
+>> ***
+>> **VxLAN (Virtual Extensible LAN)**
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
@@ -56,20 +56,26 @@
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
->> 
->> **The Dude**
+>> ***
+>> **The Dude (Mikrotik Network Management & Traffick Monitoring)**
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
 >
-> ### 📅 Management
->> **Netbox**
+> ### 📅 Management & Reporting
+>> **Netbox (Network automation and monitoring tools)**
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
 >
 > ### 🔥 Firewall & Security
->> **Netbox**
+>> **XYZ**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>
+> ### ♻️ Backup & Recovery
+>> **S3 Offline**
 >> |  | Readme | Schema | Research | Implement | Docs | Config |
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
