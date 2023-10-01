@@ -80,3 +80,63 @@
 >> |:----- |:----|:----|:----|:----|:----|:----|
 >> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
 >
+
+
+## ICWS (Clouds)
+> ### 🌏 Suports Server (Wide area network)
+> 
+>> **DNS Server**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
+> ### 🛠️ Management Server
+>> **CloudStack management ()**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
+> ### 📀 Storage Server
+>> **NFS ()**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
+>> **Ceph ()**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
+> ### 🖥️ Hypervisor Server
+>> **KVM ()**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
+> ### 🧊 Kubernetes
+>> **Base Installations ()**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
+>> **Serverless ()**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
+> ### 🛢️ Database
+>> **MongoDB ()**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
+>> **MySQL ()**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
+>> **S3 ()**
+>> |  | Readme | Schema | Research | Implement | Docs | Config |
+>> |:----- |:----|:----|:----|:----|:----|:----|
+>> | Status | 🟩[view]() | 🟩[view]() | 🟩[view]() | 🟩[view]() | ✅[view]() | ❎[view]() |
+>> 
