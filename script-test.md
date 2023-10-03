@@ -1,9 +1,18 @@
-<div style="margin-left: auto; margin-right: auto; width: 90%">
+:::{list-table} Frozen Delights!
+:widths: 15 10 30
+:header-rows: 1
 
-| Item         | Price | # In stock |
-|--------------|:-----:|-----------:|
-| Juicy Apples |  1.99 |        739 |
-| Bananas      |  1.89 |          6 |
-
-</div>
-
+*   - Treat
+    - Quantity
+    - Description
+*   - Albatross
+    - 2.99
+    - On a stick!
+*   - Crunchy Frog
+    - 1.49
+    - If we took the bones out, it wouldn't be
+ crunchy, now would it?
+*   - Gannet Ripple
+    - 1.99
+    - On a stick!
+:::
