@@ -1,4 +1,4 @@
-<div style="margin-left: auto; margin-right: auto; width: 100%">
+<div style="margin-left: auto; margin-right: auto; width: 90%">
 
 | Item         | Price | # In stock |
 |--------------|:-----:|-----------:|
