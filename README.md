@@ -25,6 +25,25 @@ mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/
 ===============================================================================  
 </pre>
 
+## Add cloudstack repo for ubuntu
+```
+-------------------  UBUNTU  -----------------------------------
+mkdir -p /etc/apt/keyrings
+wget -O- https://download.cloudstack.org/release.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/cloudstack.gpg > /dev/null
+
+echo deb [signed-by=/etc/apt/keyrings/cloudstack.gpg] https://download.cloudstack.org/ubuntu $(lsb_release -s -c) 4.18 > /etc/apt/sources.list.d/cloudstack.list
+--------------------------------------------------------------------------
+```
+## Add cloudstack repo for debian
+```
+-------------------  DEBIAN  -----------------------------------
+mkdir -p /etc/apt/keyrings
+wget -O- http://packages.shapeblue.com/release.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/cloudstack.gpg > /dev/null
+
+echo deb [signed-by=/etc/apt/keyrings/cloudstack.gpg] http://packages.shapeblue.com/cloudstack/upstream/debian/4.18 / > /etc/apt/sources.list.d/cloudstack.list 
+---------------------------------------------------------------------------
+```
+
 
 
 ## Index Notes
