@@ -1,4 +1,5 @@
-<h4>Docker</h4>
+## Docker
+
 <pre>
 sudo apt-get update -y && sudo apt upgrade -y 
 sudo apt update && sudo apt-get install -y ca-certificates curl gnupg lsb-release apt-transport-https 
@@ -17,7 +18,7 @@ sudo apt update && sudo apt-get install docker-ce docker-ce-cli containerd.io do
 sudo usermod -aG docker $USER && newgrp docker  
 </pre>
 
-<i>MASALAH OLD apt-key</i>
+## MASALAH OLD apt-key
 <pre>  
 ================== CATATAN PENTING MASALAH OLD apt-key ========================
 wget -O - http://download.cloudstack.org/release.asc |sudo apt-key add -
@@ -32,16 +33,19 @@ mkdir -p /etc/apt/keyrings
 wget -O- https://download.cloudstack.org/release.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/cloudstack.gpg > /dev/null
 
 echo deb [signed-by=/etc/apt/keyrings/cloudstack.gpg] https://download.cloudstack.org/ubuntu $(lsb_release -s -c) 4.18 > /etc/apt/sources.list.d/cloudstack.list
---------------------------------------------------------------------------
 ```
+
 ## Add cloudstack repo for debian
 ```
--------------------  DEBIAN  -----------------------------------
+-------------------  DEBIAN  -----------------------------
 mkdir -p /etc/apt/keyrings
 wget -O- http://packages.shapeblue.com/release.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/cloudstack.gpg > /dev/null
 
 echo deb [signed-by=/etc/apt/keyrings/cloudstack.gpg] http://packages.shapeblue.com/cloudstack/upstream/debian/4.18 / > /etc/apt/sources.list.d/cloudstack.list 
----------------------------------------------------------------------------
+```
+## Create file .pem from .crt and .key
+```
+cat server.crt server.key > server.includesprivatekey.pem
 ```
 
 
