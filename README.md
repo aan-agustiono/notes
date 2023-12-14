@@ -52,10 +52,12 @@ cat server.crt server.key > server.includesprivatekey.pem
 
 ## Index Notes
 
+#### [Favorites Links](fav-url.md)
+
 #### [Clouds]()
 | Project | Docum | 
 
-#### [Database]()
+#### [Database](Database/)
 
 #### [DevOpsSec]()
 
