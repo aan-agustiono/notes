@@ -9,7 +9,7 @@
   </tbody>
 </table>
 
-
+<pre>
 Windows 10 Home Edition Keys
 YTMG3-N6DKC-DKB77-7M9GH-8HVX7
 
@@ -46,3 +46,4 @@ NKJFK-GPHP7-G8C3J-P6JXR-HQRJR
 2017 product keys for Windows 10
 TX9XD-98N7V-6WMQ6-BX7FG-48Q99
 TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+</pre>
