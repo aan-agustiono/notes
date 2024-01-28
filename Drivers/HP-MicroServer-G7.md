@@ -4,7 +4,7 @@
 | Items | Value |
 | ---- | ---- |
 | Proccessor | AMD Turion™ II Neo N54L (2.2 GHz, 15W, 2MB) |
-| Memmory | 2GB (1 x 2GB) PC3-10600E DDR3 UB ECC NOTE: Total of 2 DIMM slots |
+| Memmory | 16GB (2 x 8GB) PC3-10600E DDR3 UB ECC NOTE: Total of 2 DIMM slots |
 | Default NIC | NC107i PCI Express Gigabit Ethernet |
 | Default Drive | Non-Hot Plug SATA 8.0TB (4 x 2TB) Maximum, RAID (0, 1) |
 
