@@ -5,7 +5,7 @@
 </table>
 
 | Items | Value |
-----
+| ---- | ---- |
 | Proccessor | AMD Turion™ II Neo N54L (2.2 GHz, 15W, 2MB) |
 | Memmory | 2GB (1 x 2GB) PC3-10600E DDR3 UB ECC NOTE: Total of 2 DIMM slots |
 
