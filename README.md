@@ -48,6 +48,18 @@ echo deb [signed-by=/etc/apt/keyrings/cloudstack.gpg] http://packages.shapeblue.
 cat server.crt server.key > server.includesprivatekey.pem
 ```
 
+## Create Apache and PHP 8.2 fresh installations
+```
+sudo apt install software-properties-common 
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update && sudo apt install -y apache2 php8.2 php8.2-fpm vim 
+sudo a2enmod proxy_fcgi setenvif userdir
+sudo a2enconf php8.2-fpm
+mkdir ~/public_html
+chmod 711 $HOME
+chmod 755 ~/public_html
+vim ~/public_html/index.html
+```
 
 
 ## Index Notes
