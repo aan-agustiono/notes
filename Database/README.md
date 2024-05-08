@@ -40,3 +40,9 @@ mysql> flush privileges;
 #### If your service is named “mysqld”, try this:
 `$ sudo /etc/init.d/mysql restart`
 
+## Simple ways
+```
+CREATE USER 'ants'@'%'IDENTIFIED BY 'scythe!';
+GRANT ALL ON *.* TO 'ants'@'%';
+flush privileges;
+```
