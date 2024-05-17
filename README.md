@@ -20,7 +20,7 @@ sudo usermod -aG docker $USER && newgrp docker
 
 ## MASALAH OLD apt-key
 <pre>  
-================== CARA 01 ========================
+=========================================================================================
 ##CARA 01
 
 wget -O - http://download.cloudstack.org/release.asc |sudo apt-key add -
@@ -31,7 +31,7 @@ cd /etc/apt/trusted.gpg.d/
 sudo wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/grafana.gpg >/dev/null
 echo "deb [signed-by=/etc/apt/trusted.gpg.d/grafana.gpg] https://apt.grafana.com stable main" | sudo tee /etc/apt/sources.list.d/grafana.list
 
-====================================================  
+=========================================================================================
 </pre>
 
 ## Add cloudstack repo for ubuntu
