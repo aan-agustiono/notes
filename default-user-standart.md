@@ -2,7 +2,7 @@
 | Username | Password |
 | ----------- | ----------- |
 | admin | admin |
-| admin | %0|F?H@f!berhO3e |
+| admin | `%0|F?H@f!berhO3e` |
 
 ## Admin ZTE
 | Username | Password |
