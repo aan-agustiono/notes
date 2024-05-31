@@ -1,11 +1,11 @@
-<h3>Nested VM use Hardware resource</h3>
-<pre>
+## Nested VM use Hardware resource
+```
 VBoxManage modifyvm <YourVirtualMachineName> --nested-hw-virt on  
-</pre>
+```
 
-<h3>List VM name</h3>
-<pre>
+## List VM name
+```
 ants@labs:~$ VBoxManage list vms  
-</pre>
+```
 
 
