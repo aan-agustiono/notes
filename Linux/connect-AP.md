@@ -34,3 +34,6 @@ $ sudo iw dev wlp7s0 connect RAPMS-B key s:password_wifi_mu
 $ iwconfig
 ```
 Jika pada ESSID sudah tertera sesuai dengan SSID hotspot yang ingin kita konek berarti koneksi ke hotspot telah berhasil.
+
+### Reff Link
+[https://www.belajarlinux.org/cara-setting-lan-wifi-ubuntu-linux-mint-menggunakan-terminal/]cara-setting-lan-wifi-ubuntu-linux-mint-menggunakan-terminal
