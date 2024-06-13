@@ -1,7 +1,7 @@
 ## CloudStack Tutorial
-- [https://wiki.csclub.uwaterloo.ca/CloudStack](https://wiki.csclub.uwaterloo.ca/CloudStack)
-- [https://rohityadav.cloud/blog/cloudstack-kvm/](https://rohityadav.cloud/blog/cloudstack-kvm/)
-- [https://leo.leung.xyz/wiki/CloudStack](https://leo.leung.xyz/wiki/CloudStack)
+- [wiki.csclub.uwaterloo.ca/CloudStack](https://wiki.csclub.uwaterloo.ca/CloudStack)
+- [rohityadav.cloud/blog/cloudstack-kvm/](https://rohityadav.cloud/blog/cloudstack-kvm/)
+- [leo.leung.xyz/wiki/CloudStack](https://leo.leung.xyz/wiki/CloudStack)
 
 ## Storage Server
 - [how-to-set-up-an-nfs-server-using-block-storage](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-server-using-block-storage)
@@ -24,4 +24,4 @@
 
 ## Mikrotik
 - [ixp.mikrotik.co.id/download/nice.rsc](http://ixp.mikrotik.co.id/download/nice.rsc)
-- [Looking glass - lg.mohonmaaf.com/](http://lg.mohonmaaf.com/)
+- [Looking glass - lg.mohonmaaf.com](http://lg.mohonmaaf.com/)
