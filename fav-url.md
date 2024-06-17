@@ -1,6 +1,6 @@
 ## CloudStack Tutorial
 - [wiki.csclub.uwaterloo.ca/CloudStack](https://wiki.csclub.uwaterloo.ca/CloudStack)
-- [rohityadav.cloud/blog/cloudstack-kvm/](https://rohityadav.cloud/blog/cloudstack-kvm/)
+- [rohityadav.cloud/blog/cloudstack-kvm](https://rohityadav.cloud/blog/cloudstack-kvm)
 - [leo.leung.xyz/wiki/CloudStack](https://leo.leung.xyz/wiki/CloudStack)
 
 ## Storage Server
@@ -10,9 +10,9 @@
 - [how-to-set-up-a-private-docker-registry-on-ubuntu-22-04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-22-04)
 
 ## Repository
-- [apt-cache-server-in-ubuntu/](https://www.tecmint.com/apt-cache-server-in-ubuntu/)
+- [apt-cache-server-in-ubuntu](https://www.tecmint.com/apt-cache-server-in-ubuntu/)
 - [Apt-Cacher%20NG](https://help.ubuntu.com/community/Apt-Cacher%20NG)
-- [https://www.unix-ag.uni-kl.de/~bloch/acng/](https://www.unix-ag.uni-kl.de/~bloch/acng/)
+- [www.unix-ag.uni-kl.de/~bloch/acng](https://www.unix-ag.uni-kl.de/~bloch/acng/)
 
 
 ## Microk8s
@@ -25,3 +25,7 @@
 ## Mikrotik
 - [ixp.mikrotik.co.id/download/nice.rsc](http://ixp.mikrotik.co.id/download/nice.rsc)
 - [Looking glass - lg.mohonmaaf.com](http://lg.mohonmaaf.com/)
+- [mikrotikconfig.com/firewall generator](https://mikrotikconfig.com/firewall/)
+
+## Fun coding
+- [copy.sh](https://copy.sh/)
