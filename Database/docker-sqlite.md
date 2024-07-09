@@ -1,0 +1,21 @@
+#### docker-compose-sqlite.yaml
+```
+version: '3'
+services:
+  sqlite:
+    container_name: my-sqlite-container
+    image: sqlite:latest
+    volumes:
+      - sqlite-data:/mydatabase
+    ports:
+      - "5432:5432"
+    restart: always
+
+volumes:
+  sqlite-data:
+```
+
+####
+```
+docker-compose -f docker-compose-sqlite.yaml up -d
+```
