@@ -1,10 +1,10 @@
-## BGP (Border Gateway Protocol)
+# BGP (Border Gateway Protocol)
 
-### >BGP Attribute
+### :earth_asia: BGP Attribute
 
 ![Alt text](https://github.com/aan-agustiono/notes/blob/main/Networking/Routing/BGP/border-gateway-protocol6.png)
 
-### >BGP ASN Private Number
+### :earth_asia: BGP ASN Private Number
 
 |  | 16bit | 32bit |
 |---|---|---|
