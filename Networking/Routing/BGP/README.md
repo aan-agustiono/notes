@@ -2,4 +2,5 @@
 
 ### >BGP Attribute
 
-![Alt text](../Networking/Routing/BGP/border-gateway-protocol6.png)
+![Alt text](https://github.com/aan-agustiono/notes/blob/main/Networking/Routing/BGP/border-gateway-protocol6.png)
+
