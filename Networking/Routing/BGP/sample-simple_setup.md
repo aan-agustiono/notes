@@ -10,9 +10,9 @@ LAN --- 1.0.0.0/24(eht2[R1]eth1)3.0.0.1 ------ 3.0.0.2(eht2[R2]eth1)2.0.0.0/24 -
 - 2.0.0.0/24 that R2 will advertise
 - 3.0.0.0/24 for the point-to-point link between R1 and R2
 - 3.0.0.1 for R1 and 3.0.0.2 for R2
+- The `ether1` interface for the R1 and R2 point-to-point links
+- The `ether2` interface for the internal, to-be-advertised subnet
 
-The `ether1` interface for the R1 and R2 point-to-point links
-The `ether2` interface for the internal, to-be-advertised subnet
 I will not be doing route filters or IPv6 in this article. I plan to do it in future posts.
 
 ### To setup BGP, first set your IP addresses, 
