@@ -1,4 +1,4 @@
-### A Simple MikroTik RouterOS v7 BGP Config
+## A Simple MikroTik RouterOS v7 BGP Config
 
 The setup will have:
 ```
@@ -11,25 +11,25 @@ LAN --- 1.0.0.0/24(eht2[R1]eth1)3.0.0.1 ------ 3.0.0.2(eht2[R2]eth1)2.0.0.0/24 -
 - 3.0.0.0/24 for the point-to-point link between R1 and R2
 - 3.0.0.1 for R1 and 3.0.0.2 for R2
 
-The ether1 interface for the R1 and R2 point-to-point links
-The ether2 interface for the internal, to-be-advertised subnet
+The `ether1` interface for the R1 and R2 point-to-point links
+The `ether2` interface for the internal, to-be-advertised subnet
 I will not be doing route filters or IPv6 in this article. I plan to do it in future posts.
 
-To setup BGP, first set your IP addresses, 
-on R1:
+### To setup BGP, first set your IP addresses, 
+#### R1:
 ```
 /ip address
 add address=1.0.0.1/24 interface=ether2 network=1.0.0.0
 add address=3.0.0.1/24 interface=ether1 network=3.0.0.0
 ```
-On R2:
+#### R2:
 ```
 /ip address
 add address=2.0.0.1/24 interface=ether2 network=2.0.0.0
 add address=3.0.0.2/24 interface=ether1 network=3.0.0.0
 ```
-Then configure the IP address lists, 
-on R1:
+### Then configure the IP address lists, 
+#### R1:
 ```
 /ip firewall address-list
 add address=1.0.0.0/24 list=bgp-networks
@@ -37,36 +37,35 @@ add address=3.0.0.0/24 list=bgp-networks
 /ip route
 add blackhole dst-address=1.0.0.0/24
 ```
-On R2:
+#### R2:
 ```
 /ip firewall address-list
 add address=2.0.0.0/24 list=bgp-networks
 /ip route
 add blackhole dst-address=2.0.0.0/24
 ```
-Next, we should configure the default AS, on R1:
+### Next, we should configure the default AS. 
+#### R1:
 ```
 /routing bgp template set default as=1
 ```
-On R2:
+#### R2:
 ```
 /routing bgp template set default as=2
 ```
-Finally, configure BGP, on R1:
+### Finally, configure BGP
+#### R1:
 ```
-/routing bgp connection
-add listen=yes local.role=ebgp name=toR2 output.network=bgp-networks \
-    remote.address=3.0.0.2 templates=default
+/routing bgp connection add listen=yes local.role=ebgp name=toR2 output.network=bgp-networks remote.address=3.0.0.2 templates=default
 ```
-On R2:
+#### R2:
 ```
-/routing bgp connection
-add listen=yes local.role=ebgp name=toR1 output.network=bgp-networks \
-    remote.address=3.0.0.1 templates=default
+/routing bgp connection add listen=yes local.role=ebgp name=toR1 output.network=bgp-networks remote.address=3.0.0.1 templates=default
 ```
-The BGP should now be set, 
 
-on R1:
+### The BGP should now be set, 
+
+#### R1:
 ```
 [admin@MikroTik] > /routing/bgp/connection print
 Flags: D - dynamic, X - disabled, I - inactive 
@@ -80,7 +79,7 @@ Flags: D - dynamic, X - disabled, I - inactive
    as-path=sequence 2
 [admin@MikroTik] >
 ```
-On R2:
+#### R2:
 ```
 [admin@MikroTik] > /routing/bgp/connection print
 Flags: D - dynamic, X - disabled, I - inactive 
