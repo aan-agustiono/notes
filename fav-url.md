@@ -9,6 +9,11 @@
 ## Docker
 - [how-to-set-up-a-private-docker-registry-on-ubuntu-22-04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-22-04)
 - [docker-compose-script-complaining](https://stackoverflow.com/questions/53257338/docker-compose-script-complaining-about-a-python-module-import)
+- [docker-cheat-sheet](https://low-orbit.net/docker-cheat-sheet)
+
+
+## Programming
+- [python](https://low-orbit.net/python)
 
 ## Repository
 - [apt-cache-server-in-ubuntu](https://www.tecmint.com/apt-cache-server-in-ubuntu/)
