@@ -7,6 +7,9 @@
 
 - [BGP](https://github.com/aan-agustiono/notes/blob/main/Networking/Routing/BGP/README.md)
 
+
+### Differences Between Network Edge and Core
+
 | Core Network	| Edge Network |
 |--- | --- |
 | Has more hops to the adjacent networks compared to edge networks |	Has fewer hops to their adjacent networks |
