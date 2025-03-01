@@ -757,6 +757,8 @@ summary {
 }
 
 pre {
+  width: 100%;
+  border: 1.5px solid black;  
   font-size: 13px;
 }
 
@@ -784,6 +786,19 @@ pre {
   font-size: 14px;
 }
 
+table {border-collapse: collapse; border:0;width:100%;box-shadow:1px #ccc;}
+.center {text-align: center;}
+.center table {margin: 1em auto; text-align: left;}
+.center th {text-align: center !important;}
+td, th {border: 1px solid #666; font-size: 100%; vertical-align: baseline; padding: 4px 5px;}
+th {background-color: #ccf; font-weight: bold;}
+
+code {
+border:1px solid gray;border-width:.1em .1em .1em .8em;
+}
+
+
+
 /* responsive shiz */
 @media only screen and (min-width: 640px) {
   .layout { display: flex; justify-content: space-between; }
@@ -800,63 +815,147 @@ pre {
 	
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>	
-<script>
-    $(function(){
-      $("#load_content").load("videos.php"); 
-    });
-</script>	
 </head>
 
 <body ontouchstart>
   <div class="container">
 
 	<ul role="menu-bar">
-	  <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="">Home</a></li>
-	  <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="">Videos</a></li>
-	  <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="">Gallery</a></li>
-	  <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="">Notes</a></li>
-	  <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="">Servers</a></li>
+	  <li role="menu-item" tabindex="0" aria-haspopup="false"><a href=".">Home</a></li>
+	  <li role="menu-item" tabindex="0" aria-haspopup="false"><a href="links.html">Links</a></li>
 	</ul>
 	  
   
     <div class="layout">
-      <p class="col col-main">
+<!--      <p class="col col-main">
         <aside class="window sidebar">
-          <div class="title-bar">
-            <button aria-label="Close" class="close"></button>
-            <h1 class="title">Docs</h1>
-            <button aria-label="Resize" class="resize"></button>
-          </div>
+          <div class="title-bar"><h1 class="title">Docs</h1></div>
           <div class="separator"></div>
           <div class="window-pane">
 
 		  </div>
 		</aside>
-	  </p>
 
+	  </p>
+-->
 	
-      <p class="col col-complementary" role="complementary">
+<!--      <p class="col col-complementary" role="complementary"> -->
         <div class="standard-dialog window scale-down">
 		  <div class="title-bar">
 			<button aria-label="Close" class="close"></button>
-			<h1 class="title">Window Without Stuff</h1>
+			<h1 class="title">Get Info Stuff</h1>
 			<button aria-label="Resize" class="resize"></button>
 		  </div>
 
 
 
-		<p>
-		testsd ksjdksjd kjhkjhsd lskdflksdjf lsdjfksdjkfs lskjdflsdflks lsjdflsdkfjlsd lsjdfksdjflsd 
-		skdjflsdjflksd lskjdflsdjflsd ;sjdf;sd
-		ksjfksdfkjlsdf lsdkjfksldflsd lskjdflsdkf lskdfj;a/.sjdksdjls		
-		</p>
-		<h1>test aja</h1>
 
-			<div id="load_content"></div>
+    <h1>IP Guest Informations</h1>
+    <table class="info" width="95%">
+        <tr><th width="20%"><strong>Status</strong></th><td width="30%"><span id="status">Memuat...</span></td><th width="20%"></th><td width="30%"></td></tr>
+        <tr><th>IP Address</th><td><span id="ip">-</span></td><th>Browser</th><td><span id="browser">-</span></td></tr>
+        <tr><th>Negara</th><td><span id="country">-</span></td><th>Browser Ver</th><td><span id="browserVersion">-</span></td></tr>
+        <tr><th>Kota</th><td><span id="city">-</span></td><th>OS</th><td><span id="os">-</span></td></tr>
+        <tr><th>ISP</th><td><span id="isp">-</span></td><th>Platform</th><td><span id="platform">-</span></td></tr>
+        <tr valign="top"><th>Zona Waktu</th><td><span id="timezone">-</span></td><th>User Agent</th><td><span id="userAgent">-</span></td></tr>
+        <tr valign="top"><th>Koordinat Geografis</th><td><span id="coordinates">-</span></td><th></th><td></td></tr>
+    </table>
 
+
+    <script>
+        // Fungsi untuk mendapatkan informasi IP dan detail lainnya
+        document.addEventListener('DOMContentLoaded', function () {
+            const status = document.getElementById('status');
+            const ip = document.getElementById('ip');
+            const country = document.getElementById('country');
+            const city = document.getElementById('city');
+            const isp = document.getElementById('isp');
+            const timezone = document.getElementById('timezone');
+            const coordinates = document.getElementById('coordinates');
+
+            // Menggunakan API dari ip.sb
+            fetch('https://api.ip.sb/geoip')
+                .then(response => response.json())
+                .then(data => {
+                    // Tampilkan data di halaman web
+                    status.textContent = 'Data berhasil dimuat!';
+                    ip.textContent = data.ip || '-';
+                    country.textContent = data.country || '-';
+                    city.textContent = data.city || '-';
+                    isp.textContent = data.isp || '-';
+                    timezone.textContent = data.timezone || '-';
+                    coordinates.textContent = `${data.latitude || '-'}, ${data.longitude || '-'}`;
+                })
+                .catch(error => {
+                    // Tangani kesalahan jika gagal mendapatkan data
+                    status.textContent = 'Gagal memuat data.';
+                    console.error('Error:', error);
+                });
+
+            // Fungsi untuk mendapatkan informasi browser dan sistem operasi
+            const userAgent = navigator.userAgent;
+            const browserInfo = getBrowserInfo(userAgent);
+            const osInfo = getOSInfo(userAgent);
+
+            document.getElementById('browser').textContent = browserInfo.name || '-';
+            document.getElementById('browserVersion').textContent = browserInfo.version || '-';
+            document.getElementById('os').textContent = osInfo || '-';
+            document.getElementById('platform').textContent = navigator.platform || '-';
+            document.getElementById('userAgent').textContent = userAgent || '-';
+        });
+
+        // Fungsi untuk mendapatkan informasi browser
+        function getBrowserInfo(userAgent) {
+            let browserName = 'Tidak Diketahui';
+            let browserVersion = 'Tidak Diketahui';
+
+            if (/Firefox\/(\d+)/.test(userAgent)) {
+                browserName = 'Firefox';
+                browserVersion = userAgent.match(/Firefox\/(\d+)/)[1];
+            } else if (/Chrome\/(\d+)/.test(userAgent)) {
+                browserName = 'Chrome';
+                browserVersion = userAgent.match(/Chrome\/(\d+)/)[1];
+            } else if (/Edg\/(\d+)/.test(userAgent)) {
+                browserName = 'Edge';
+                browserVersion = userAgent.match(/Edg\/(\d+)/)[1];
+            } else if (/Safari\/(\d+)/.test(userAgent)) {
+                browserName = 'Safari';
+                browserVersion = userAgent.match(/Version\/(\d+)/)[1];
+            } else if (/Opera|OPR\/(\d+)/.test(userAgent)) {
+                browserName = 'Opera';
+                browserVersion = userAgent.match(/OPR\/(\d+)/)[1];
+            }
+
+            return { name: browserName, version: browserVersion };
+        }
+
+        // Fungsi untuk mendapatkan informasi sistem operasi
+        function getOSInfo(userAgent) {
+            if (/Windows/.test(userAgent)) {
+                return 'Windows';
+            } else if (/Macintosh/.test(userAgent)) {
+                return 'MacOS';
+            } else if (/Linux/.test(userAgent)) {
+                return 'Linux';
+            } else if (/Android/.test(userAgent)) {
+                return 'Android';
+            } else if (/iPhone|iPad|iPod/.test(userAgent)) {
+                return 'iOS';
+            } else {
+                return 'Tidak Diketahui';
+            }
+        }
+    </script>
+
+
+<h3>Notes</h3>
+<h5>- Docker Installations Fresh </h5>
+<code>
+sudo apt-get update -y && sudo apt upgrade -y && sudo apt update && sudo apt-get install -y ca-certificates curl gnupg lsb-release apt-transport-https && sudo mkdir -p /etc/apt/keyrings && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null && sudo apt update && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-compose -y && sudo usermod -aG docker $USER && newgrp docker  
+</code>
 
 	</div>
-      </p>
+<!--      </p> -->
     </div>
   </div>
 
