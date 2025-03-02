@@ -793,11 +793,6 @@ table {border-collapse: collapse; border:0;width:100%;box-shadow:1px #ccc;}
 td, th {border: 1px solid #666; font-size: 100%; vertical-align: baseline; padding: 4px 5px;}
 th {background-color: #ccf; font-weight: bold;}
 
-code {
-border:1px solid gray;border-width:.1em .1em .1em .8em;
-}
-
-
 
 /* responsive shiz */
 @media only screen and (min-width: 640px) {
@@ -949,10 +944,22 @@ border:1px solid gray;border-width:.1em .1em .1em .8em;
 
 
 <h3>Notes</h3>
-<h5>- Docker Installations Fresh </h5>
+<h5>- <u>Docker Installations Fresh Ubuntu 22.04</u></h5>
 <code>
 sudo apt-get update -y && sudo apt upgrade -y && sudo apt update && sudo apt-get install -y ca-certificates curl gnupg lsb-release apt-transport-https && sudo mkdir -p /etc/apt/keyrings && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null && sudo apt update && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-compose -y && sudo usermod -aG docker $USER && newgrp docker  
 </code>
+
+<h5>- <u>Docker Installations Fresh Ubuntu 24.04</u></h5>
+<code>
+sudo apt update && sudo apt upgrade -y && sudo apt install -y apt-transport-https ca-certificates curl software-properties-common vim && sudo mkdir -p /etc/apt/keyrings && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null && sudo apt update && sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin && sudo usermod -aG docker $USER && newgrp docker
+</code>
+
+
+<h5>- <u>Docker Installations Fresh Debian</u></h5>
+<code>
+sudo apt-get update -y && sudo apt upgrade -y &&sudo apt update && sudo apt-get install -y ca-certificates curl gnupg lsb-release apt-transport-https && sudo mkdir -p /etc/apt/keyrings && curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null && sudo apt update && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-compose -y && sudo usermod -aG docker $USER && newgrp docker  
+</code>
+
 
 	</div>
 <!--      </p> -->
@@ -961,3 +968,9 @@ sudo apt-get update -y && sudo apt upgrade -y && sudo apt update && sudo apt-get
 
 </body>
 </html>
+
+
+
+
+
+
