@@ -15,5 +15,5 @@
 | RADIUS client	| yes | yes | yes |
 | Queues	| unlimited | unlimited | unlimited |
 | Web proxy	| yes | yes | yes |
-|User manager active sessions	|20|50|Unlimited|
-|Number of KVM guests	|Unlimited|Unlimited|Unlimited|
+|User manager active sessions	| 20 | 50 | Unlimited |
+|Number of KVM guests	| Unlimited | Unlimited | Unlimited |
