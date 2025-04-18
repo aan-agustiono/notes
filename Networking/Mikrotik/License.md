@@ -3,7 +3,7 @@
 | Item | Level 4 | Level 5 | Level 6 |
 |--- |--- |--- |
 | Wireless AP | yes | yes | yes |
-| Wireless Client and Bridge |yes | yes | yes |
+| Wireless Client and Bridge | yes | yes | yes |
 | RIP, OSPF, BGP protocols | yes | yes | yes |
 | EoIP tunnels |	unlimited | unlimited | unlimited |
 | PPPoE tunnels	| 200 | 500 | unlimited |
