@@ -1,7 +1,7 @@
 ### Perbandingan fitur antar Lisensi RouterOS :
 
 | Item | Level 4 | Level 5 | Level 6 |
-|--- |--- |--- |
+|---- |---- |---- |--- |
 | Wireless AP | yes | yes | yes |
 | Wireless Client and Bridge | yes | yes | yes |
 | RIP, OSPF, BGP protocols | yes | yes | yes |
