@@ -27,6 +27,9 @@ C:\Windows\System32>
 
 ![Alt text](images/wsl-bridge01.png "Global Schema Link")
 
+![Alt text](images/wsl-bridge02.png "Global Schema Link")
+
+![Alt text](images/wsl-bridge03.png "Global Schema Link")
 
 Saat menggunakan distribusi WSL 1, jika komputer Anda dikonfigurasi untuk diakses oleh LAN Anda, maka aplikasi yang dijalankan di WSL juga dapat diakses di LAN Anda.
 
