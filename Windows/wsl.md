@@ -25,6 +25,9 @@ C:\Windows\System32>
 
 ### Mengakses distribusi WSL 2 dari jaringan area lokal (LAN) Anda
 
+![Alt text](images/wsl-bridge01.png "Global Schema Link")
+
+
 Saat menggunakan distribusi WSL 1, jika komputer Anda dikonfigurasi untuk diakses oleh LAN Anda, maka aplikasi yang dijalankan di WSL juga dapat diakses di LAN Anda.
 
 Ini bukan kasus default di WSL 2. WSL 2 memiliki adaptor ethernet tervirtualisasi dengan alamat IP uniknya sendiri. Saat ini, untuk mengaktifkan alur kerja ini, Anda harus melalui langkah-langkah yang sama seperti yang Anda lakukan pada mesin virtual biasa. (Kami mencari cara untuk meningkatkan pengalaman ini.)
