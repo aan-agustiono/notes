@@ -31,6 +31,31 @@ C:\Windows\System32>
 
 ![Alt text](images/wsl-bridge03.png "Global Schema Link")
 
+#### The last step is to tell WSL which network it should use.
+In a way, we say which network port it should connect to.
+
+Create a new file in the root of the user profile (C:UsersYOURUSERNAME) called ".wslconfig", and insert the text below:
+```
+[wsl2]
+networkingMode=bridged
+vmSwitch=wsl-bridge
+```
+
+Then save and close the file.
+
+For the file to be taken into account, it is necessary to force the shutdown of WSL.
+To do this, run the following command in PowerShell:
+
+```
+wsl --shutdown
+```
+Once done, you can now reopen WSL, and the network will now be in bridge mode.
+
+
+
+
+
+
 Saat menggunakan distribusi WSL 1, jika komputer Anda dikonfigurasi untuk diakses oleh LAN Anda, maka aplikasi yang dijalankan di WSL juga dapat diakses di LAN Anda.
 
 Ini bukan kasus default di WSL 2. WSL 2 memiliki adaptor ethernet tervirtualisasi dengan alamat IP uniknya sendiri. Saat ini, untuk mengaktifkan alur kerja ini, Anda harus melalui langkah-langkah yang sama seperti yang Anda lakukan pada mesin virtual biasa. (Kami mencari cara untuk meningkatkan pengalaman ini.)
