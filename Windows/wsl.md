@@ -35,11 +35,14 @@ C:\Windows\System32>
 In a way, we say which network port it should connect to.
 
 Create a new file in the root of the user profile (C:UsersYOURUSERNAME) called ".wslconfig", and insert the text below:
+![Alt text](images/wsl-bridgeA1.png "Global Schema Link")
+
 ```
 [wsl2]
 networkingMode=bridged
 vmSwitch=wsl-bridge
 ```
+![Alt text](images/wsl-bridgeA2.png "Global Schema Link")
 
 Then save and close the file.
 
