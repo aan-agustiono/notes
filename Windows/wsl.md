@@ -25,13 +25,17 @@ C:\Windows\System32>
 
 ### Mengakses distribusi WSL 2 dari jaringan area lokal (LAN) Anda
 
+Activasi Hyper-V.
+
+#### Buat Virtual Bridge di Hyper-V
+
 ![Alt text](images/wsl-bridge01.png "Global Schema Link")
 
 ![Alt text](images/wsl-bridge02.png "Global Schema Link")
 
 ![Alt text](images/wsl-bridge03.png "Global Schema Link")
 
-#### The last step is to tell WSL which network it should use.
+#### Edit WSL configurasi network yang akan digunakan.
 In a way, we say which network port it should connect to.
 
 Create a new file in the root of the user profile (C:UsersYOURUSERNAME) called ".wslconfig", and insert the text below:
