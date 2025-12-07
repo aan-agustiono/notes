@@ -27,5 +27,5 @@
   
 🟡 WD Gold – Enterprise Servers
 - The highest performance and quality
-Handles extreme workloads
-Expensive because it’s enterprise-grade
+- Handles extreme workloads
+- Expensive because it’s enterprise-grade
