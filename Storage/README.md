@@ -1,5 +1,5 @@
 ## The Secret Behind WD Hard Drive Colors
--
+
 🟢 WD Green – Light Usage
 - Good for basic storage
 - Quiet and energy-efficient
