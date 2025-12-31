@@ -1,3 +1,9 @@
+## Electric
+- [Calc Solar Panel](https://docs.google.com/spreadsheets/d/1rXkmTFs2axHLA5mYzLpV5oqGHxaHL22B8m_RWfWnmL0/edit?single=true&rm=minimal&widget=true&headers=false&gid=63135526#gid=63135526)
+- [Simulasi Jalur Matahari 3D](https://app.shadowmap.org/)
+- [Solar line](https://www.suncalc.org/)
+- [Simulasi Solar Panel analitycs](https://globalsolaratlas.info/)
+
 ## CloudStack Tutorial
 - [wiki.csclub.uwaterloo.ca/CloudStack](https://wiki.csclub.uwaterloo.ca/CloudStack)
 - [rohityadav.cloud/blog/cloudstack-kvm](https://rohityadav.cloud/blog/cloudstack-kvm)
