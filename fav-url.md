@@ -42,7 +42,7 @@
 ## Fun coding
 - [copy.sh](https://copy.sh/)
 - [grep.app](http://grep.app/)
-- [servers](shodan.io)
+- [servers](https://shodan.io)
 - [servers](https://censys.io/)
 - [email](https://hunter.io/)
 - [source code](https://urlscan.io/) 
