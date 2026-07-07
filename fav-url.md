@@ -42,3 +42,12 @@
 ## Fun coding
 - [copy.sh](https://copy.sh/)
 - [grep.app](http://grep.app/)
+- [servers](shodan.io)
+- [servers](https://censys.io/)
+- [email](https://hunter.io/)
+- [source code](https://urlscan.io/) 
+- [OSINT](https://intelx.io/)
+- [wifi](https://wigle.net/)
+- [attack surface](https://fullhunt.io/)
+- [vulnerabilities](https://vulners.com/)
+- [Threat intel](https://viz.greynoise.io/) 
